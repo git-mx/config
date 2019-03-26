@@ -1,3 +1,4 @@
+env: dev
 spring:
   application:
     name: order
@@ -12,4 +13,4 @@ eureka:
       defaultZone: http://132.232.48.14:8761/eureka/
 PRODUCT:
   ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule    
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
