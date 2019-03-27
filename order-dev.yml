@@ -10,3 +10,6 @@ spring:
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+girl:
+  name: lili
+  age: 22
