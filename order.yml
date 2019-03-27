@@ -1,3 +1,6 @@
 spring:
   application:
     name: order
+girl:
+  name: lili
+  age: 19
