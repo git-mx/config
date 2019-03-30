@@ -9,3 +9,8 @@ logging:
       shyfay:
         order:
           repository: debug
+spring:
+  redis:
+    host: 132.232.48.14
+    port: 6379
+    password: redispassword!@#
