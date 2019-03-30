@@ -1,4 +1,4 @@
-#order服务生产环境使用的配置文件使用order-dev
+#order服务生产环境使用的配置文件使用order-dev.yml
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
