@@ -5,6 +5,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/spring-cloud?characterEncoding=UTF-8@&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
+  rabbitmq:
+    host: 132.232.48.14
+    port: 5672
+    username: guest
+    password: guest
 girl:
   name: lili
   age: 23
