@@ -7,6 +7,6 @@ logging:
   level:
     com:
       shyfay:
-        admin:
-          dao: debug
+        order:
+          repository: debug
 
