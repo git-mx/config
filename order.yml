@@ -1,11 +1,3 @@
+#order服务所有环境都使用的配置就放到order.yml这个配置文件里
 spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/spring-cloud?characterEncoding=UTF-8@&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
-    username: root
-    password: root
-  rabbitmq:
-    host: 132.232.48.14
-    port: 5672
-    username: guest
-    password: guest
+
