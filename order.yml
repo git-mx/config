@@ -1,3 +1,12 @@
 #order服务所有环境都使用的配置就放到order.yml这个配置文件里
-spring:
+logging:
+  file: /usr/local/tomcat/shyfay-admin.log
+  pattern:
+    level: info
+    file: "[shyfay-admin] [%d{yyyy-MM-dd HH:mm:ss.SSS}] [%thread] %-5level = > %msg%n"
+  level:
+    com:
+      shyfay:
+        admin:
+          dao: debug
 
