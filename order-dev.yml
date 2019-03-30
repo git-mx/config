@@ -10,6 +10,16 @@ spring:
     port: 5672
     username: guest
     password: guest
+redis:
+  database: 0
+  hostName: 132.232.48.14
+  port: 6379
+  password: redispassword!@#
+  pool.max-active: 8
+  pool.max-wait: -1
+  pool.max-idle: 8
+  pool.min-idle: 0
+  timeout: 0
 girl:
   name: lili
   age: 23
