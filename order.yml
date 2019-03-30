@@ -11,6 +11,6 @@ logging:
           repository: debug
 spring:
   redis:
-    host: 132.232.48.14
+    host: 132.232.48.1444444
     port: 6379
     password: redispassword!@#
