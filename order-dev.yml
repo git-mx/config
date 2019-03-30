@@ -32,6 +32,3 @@ redis:
   pool.max-idle: 8
   pool.min-idle: 0
   timeout: 0
-girl:
-  name: lili
-  age: 23
