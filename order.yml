@@ -9,7 +9,3 @@ logging:
       shyfay:
         order:
           repository: debug
-#配置eureka服务注重中心针对PRODUCT服务的ribbon负载均衡器的负载均衡策略
-PRODUCTB:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
