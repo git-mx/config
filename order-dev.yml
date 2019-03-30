@@ -24,7 +24,7 @@ spring:
           contentType: application/json
 redis:
   database: 0
-  hostName: 132.232.48.14
+  host: 132.232.48.14
   port: 6379
   password: redispassword!@#
   pool.max-active: 8
