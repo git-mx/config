@@ -18,6 +18,6 @@ spring:
           #指定在rabbitMQ管理主页上显示的文本内容
           contentType: application/json
   redis:
-    host: 132.232.48.14
+    host: 132.232.48.144444444
     port: 6379
     password: redispassword!@#
