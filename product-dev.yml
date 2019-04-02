@@ -8,7 +8,7 @@ spring:
     username: root
     password: root
   rabbitmq:
-    host: 132.232.48.14
+    host: 127.0.0.1
     port: 5672
     username: guest
     password: guest
@@ -24,13 +24,3 @@ spring:
           destination: productMessageQueue
           #指定在rabbitMQ管理主页上显示的文本内容
           contentType: application/json
-redis:
-  database: 0
-  hostName: 132.232.48.14
-  port: 6379
-  password: redispassword!@#
-  pool.max-active: 8
-  pool.max-wait: -1
-  pool.max-idle: 8
-  pool.min-idle: 0
-  timeout: 0
