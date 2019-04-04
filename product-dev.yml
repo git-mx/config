@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://132.232.48.14:3306/spring-cloud?characterEncoding=UTF-8@&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
     username: root
-    password: root
+    password: mys160712
   rabbitmq:
     host: 132.232.48.14
     port: 5672
