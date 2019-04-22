@@ -11,6 +11,9 @@ logging:
           repository: debug
 spring:
   redis:
-    host: localhost
+    #本地
+    #host: localhost
+    #部署到rancher上之后
+    host: 192.168.5.113
     port: 6379
     password: redispassword!@#
