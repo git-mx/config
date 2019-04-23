@@ -2,4 +2,4 @@
 #product服务所有环境都使用的配置就放到product.yml这个配置文件里
 girl:
   name: lili
-  age: 18
+  age: 19
