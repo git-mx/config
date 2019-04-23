@@ -1,12 +1,5 @@
 
 #product服务所有环境都使用的配置就放到product.yml这个配置文件里
-logging:
-  file: /usr/local/tomcat/PRODUCTTTTT.log
-  pattern:
-    level: info
-    file: "[ORDER] [%d{yyyy-MM-dd HH:mm:ss.SSS}] [%thread] %-5level = > %msg%n"
-  level:
-    com:
-      shyfay:
-        product:
-          repository: debug
+girl:
+  name: lili
+  age: 18
