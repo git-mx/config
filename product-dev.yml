@@ -28,3 +28,6 @@ spring:
           destination: productMessageQueue
           #指定在rabbitMQ管理主页上显示的文本内容
           contentType: application/json
+girl:
+  name: lili
+  age: 19
