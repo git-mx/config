@@ -5,13 +5,14 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
     #本地访问
-    //url: jdbc:mysql://127.0.0.1:3306/spring-cloud?characterEncoding=UTF-8@&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://127.0.0.1:3306/spring-cloud?characterEncoding=UTF-8@&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
     #部署到rancher之后需要改成如下配置
-    url: jdbc:mysql://192.168.5.113:3306/spring-cloud?characterEncoding=UTF-8@&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
+    #url: jdbc:mysql://192.168.5.113:3306/spring-cloud?characterEncoding=UTF-8@&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
   rabbitmq:
     host: 132.232.48.14
+    #host: 127.0.0.1
     port: 5672
     username: guest
     password: guest
